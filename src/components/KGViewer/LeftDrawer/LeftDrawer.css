@@ -88,3 +88,12 @@
 .left-content button:hover {
   color: #fff;
 }
+.headPicture {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  transition: filter 0.3s ease; /* 添加过渡效果 */
+
+  /* 初始状态，可根据需要调整亮度和透明度 */
+  filter: brightness(100%) opacity(1);
+}
