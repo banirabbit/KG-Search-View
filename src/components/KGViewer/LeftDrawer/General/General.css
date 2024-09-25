@@ -1,0 +1,59 @@
+.arrow {
+  margin-right: 20px;
+}
+/* Action.tsx */
+.nodestyleContainer {
+  padding: 5px 20px;
+  transition: height 0.5s ease;
+}
+.nodestyleContainer.closed {
+  height: 0;
+  overflow: hidden;
+  padding: 0;
+  transition: height 0.5s ease;
+}
+
+.nodestyle {
+  width: auto;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 2px;
+}
+.nodestyle li:first-child {
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+}
+.nodestyle li {
+  color: #fff;
+  font-size: 13px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 5px 10px;
+}
+.nodestyle li div {
+  margin-bottom: 8px;
+}
+.divider {
+  background-color: #ffffff34;
+  height: 0.5px;
+  width: 100%;
+  margin-bottom: 0;
+}
+.addNodeEdge {
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+.addNodeEdge button {
+  justify-content: center;
+  padding-left: 0px;
+  text-align: center;
+}
+.nodeNumber {
+  justify-content: space-between;
+  align-items: center;
+}

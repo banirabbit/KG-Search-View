@@ -1,0 +1,41 @@
+.MuiPaper-root {
+  min-width: 450px;
+}
+.MuiDialogContent-root.css-ypiqx9-MuiDialogContent-root {
+  padding: 10px 30px;
+}
+
+#standard-select-layout {
+  min-width: 450px;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+#settingButton {
+  width: 100%;
+  height: 40px;
+}
+.MuiNumberInput-root.css-1j65pg5 {
+  width: 90px;
+}
+.MuiNumberInput-input.css-wfz5ot {
+  width: 50px;
+  padding: 5px 5px;
+}
+#order-select {
+  width: 90px;
+  padding: 5px 5px;
+}
+.css-xtlx1y-MuiGrid-root > .MuiGrid-item.css-13i4rnv-MuiGrid-root {
+  padding-left: 31px;
+}
+#radialRadius {
+  padding-left: 39px;
+}
+#radialFocus {
+  padding-left: 23px;
+}
+#RankSepLabel {
+  padding-left: 50px;
+}
